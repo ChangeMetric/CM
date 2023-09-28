@@ -12,6 +12,12 @@ pip install -r requirements.txt
 ## Model
 In this experiment, we use 233 DNN models. Each model contains model structure(model.h5) and hyper-parameter(training_config.pkl), which is stored under the `models` folders. 
 
+## Runtime Data
+The runtime data are under the folder `runtime_data`. Due to space limitation, the folder contains the runtime data of two models as examples, one from 'blob', and the other from 'circle'. The results contains many folders:
+- `first_train`: runtime data of initial training
+- `ft`: runtime data of retraining with benchmark data
+- `ft_{num}`: runtime data of retraining with mutated data
+
 
 ## Metrics Calculation
 There are three categories of metrics used in the experiments.
