@@ -71,7 +71,11 @@ python train.py -o each_class
 ```
 python pca_process.py
 ```
-- The Impact of Different Mutation Propotion
+- The impact of different mutation propotion
 ```
 python count_labels.py
+```
+- Compare differences of change metrics
+```
+python compare_diff.py
 ```
